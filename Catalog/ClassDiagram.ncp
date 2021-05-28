@@ -1,0 +1,269 @@
+<Project>
+  <Name>untitled</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Catalog.exe</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Catalog</Name>
+        <Access>Public</Access>
+        <Location left="261" top="10" />
+        <Size width="177" height="791" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private List&lt;Part&gt; Collection</Member>
+        <Member type="Field">private List&lt;Part&gt; ChoosedParts</Member>
+        <Member type="Field">private List&lt;Vehicle&gt; AllVehicles</Member>
+        <Member type="Field">private List&lt;Vehicle&gt; ChoosedCars</Member>
+        <Member type="Field">private IContainer components</Member>
+        <Member type="Field">private TabControl Pages</Member>
+        <Member type="Field">private TabPage tabPage1</Member>
+        <Member type="Field">private TabPage tabPage2</Member>
+        <Member type="Field">private TreeView PartsChoose</Member>
+        <Member type="Field">private ImageList imageList1</Member>
+        <Member type="Field">private ListView View</Member>
+        <Member type="Field">private ImageList imageList2</Member>
+        <Member type="Field">private Label FindDetailText</Member>
+        <Member type="Field">private TextBox FindDetail</Member>
+        <Member type="Field">private Label ModelText</Member>
+        <Member type="Field">private GroupBox CarGroup</Member>
+        <Member type="Field">private Label BrandText</Member>
+        <Member type="Field">private DataGridView InterPartsList</Member>
+        <Member type="Field">private DataGridViewTextBoxColumn Unit</Member>
+        <Member type="Field">private DataGridViewTextBoxColumn Node</Member>
+        <Member type="Field">private DataGridViewTextBoxColumn Part</Member>
+        <Member type="Field">private DataGridViewTextBoxColumn From</Member>
+        <Member type="Field">private DataGridViewTextBoxColumn To</Member>
+        <Member type="Field">private Button ChoosseCarButton</Member>
+        <Member type="Field">private ComboBox CarBrands</Member>
+        <Member type="Field">private ComboBox CarModels</Member>
+        <Member type="Field">private Button ManualButton</Member>
+        <Member type="Constructor">public Catalog()</Member>
+        <Member type="Method">private List&lt;Bitmap&gt; FormImages(List&lt;String&gt; list)</Member>
+        <Member type="Method">private Void PartsChooseNodeMouseDoubleClick(Object sender, TreeNodeMouseClickEventArgs e)</Member>
+        <Member type="Method">private Void AddItemsToInterList(List&lt;Part&gt; list)</Member>
+        <Member type="Method">private Void AddItemsToCatalog(List&lt;Part&gt; list)</Member>
+        <Member type="Method">private Void ViewItemActivate(Object sender, EventArgs e)</Member>
+        <Member type="Method">private Void FindDetailTextChanged(Object sender, EventArgs e)</Member>
+        <Member type="Method">private Void CarClick(Object sender, EventArgs e)</Member>
+        <Member type="Method">private Void InitializeBrands(List&lt;Vehicle&gt; list)</Member>
+        <Member type="Method">private Void CatalogLoad(Object sender, EventArgs e)</Member>
+        <Member type="Method">private Void CarBrandsSelectedIndexChanged(Object sender, EventArgs e)</Member>
+        <Member type="Method">private Void CarModelsSelectedIndexChanged(Object sender, EventArgs e)</Member>
+        <Member type="Method">private Void ManualButtonClick(Object sender, EventArgs e)</Member>
+        <Member type="Method">protected virtual Void Dispose(Boolean disposing)</Member>
+        <Member type="Method">private Void InitializeComponent()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Info</Name>
+        <Access>Public</Access>
+        <Location left="766" top="10" />
+        <Size width="190" height="621" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private IContainer components</Member>
+        <Member type="Field">private Label PCountryText</Member>
+        <Member type="Field">private GroupBox PartInfoGroup</Member>
+        <Member type="Field">private Label MnfText</Member>
+        <Member type="Field">private Label NodeText</Member>
+        <Member type="Field">private Label UnitText</Member>
+        <Member type="Field">private Label PartText</Member>
+        <Member type="Field">private GroupBox VehicleInfoGroup</Member>
+        <Member type="Field">private Label YearText</Member>
+        <Member type="Field">private Label ModelText</Member>
+        <Member type="Field">private Label BrandText</Member>
+        <Member type="Field">private Label VCountryText</Member>
+        <Member type="Field">private GroupBox groupBox3</Member>
+        <Member type="Field">private CheckBox CheckInterchange</Member>
+        <Member type="Field">private PictureBox PartPic</Member>
+        <Member type="Field">private Label PartVal</Member>
+        <Member type="Field">private Label NodeVal</Member>
+        <Member type="Field">private Label UnitVal</Member>
+        <Member type="Field">private Label MnfVal</Member>
+        <Member type="Field">private Label PCountryVal</Member>
+        <Member type="Field">private Label YearVal</Member>
+        <Member type="Field">private Label ModelVal</Member>
+        <Member type="Field">private Label BrandVal</Member>
+        <Member type="Field">private Label VCountryVal</Member>
+        <Member type="Field">private ListBox InterchangebleVehicles</Member>
+        <Member type="Field">private GroupBox PictureGroup</Member>
+        <Member type="Property">public Part P { get; set; }</Member>
+        <Member type="Constructor">public Info()</Member>
+        <Member type="Method">private Void CheckInterchangeCheckedChanged(Object sender, EventArgs e)</Member>
+        <Member type="Method">private Void InfoLoad(Object sender, EventArgs e)</Member>
+        <Member type="Method">protected virtual Void Dispose(Boolean disposing)</Member>
+        <Member type="Method">private Void InitializeComponent()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Manual</Name>
+        <Access>Public</Access>
+        <Location left="76" top="462" />
+        <Size width="162" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private IContainer components</Member>
+        <Member type="Field">private GroupBox AuthorGroup</Member>
+        <Member type="Field">private PictureBox AuthorPic</Member>
+        <Member type="Field">private GroupBox ManualGroup</Member>
+        <Member type="Field">private Label AuthorText</Member>
+        <Member type="Field">private Label ManualText</Member>
+        <Member type="Constructor">public Manual()</Member>
+        <Member type="Method">protected virtual Void Dispose(Boolean disposing)</Member>
+        <Member type="Method">private Void InitializeComponent()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Interchange</Name>
+        <Access>Public</Access>
+        <Location left="547" top="10" />
+        <Size width="162" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public Vehicle From { get; set; }</Member>
+        <Member type="Property">public List&lt;Vehicle&gt; To { get; set; }</Member>
+        <Member type="Constructor">public Interchange()</Member>
+        <Member type="Constructor">public Interchange(Vehicle from, List&lt;Vehicle&gt; to)</Member>
+        <Member type="Method">public Void ChangeFrom(Vehicle Item)</Member>
+        <Member type="Method">public Void AddTo(Vehicle Item)</Member>
+        <Member type="Method">public Void DeleteAt(Int32 index)</Member>
+        <Member type="Method">public override Boolean Equals(Object obj)</Member>
+        <Member type="Method">public override Int32 GetHashCode()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Vehicle</Name>
+        <Access>Public</Access>
+        <Location left="547" top="643" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public String Country { get; set; }</Member>
+        <Member type="Property">public String Brand { get; set; }</Member>
+        <Member type="Property">public String Model { get; set; }</Member>
+        <Member type="Property">public UInt32 Year { get; set; }</Member>
+        <Member type="Constructor">public Vehicle()</Member>
+        <Member type="Constructor">public Vehicle(String country, String brand, String model, UInt32 year)</Member>
+        <Member type="Method">public override Boolean Equals(Object obj)</Member>
+        <Member type="Method">public override Int32 GetHashCode()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Part</Name>
+        <Access>Public</Access>
+        <Location left="547" top="298" />
+        <Size width="162" height="281" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public String Country { get; set; }</Member>
+        <Member type="Property">public String Manufacturer { get; set; }</Member>
+        <Member type="Property">public String Unit { get; set; }</Member>
+        <Member type="Property">public String Node { get; set; }</Member>
+        <Member type="Property">public String Detail { get; set; }</Member>
+        <Member type="Property">public String PicName { get; set; }</Member>
+        <Member type="Property">public Boolean Interchangeability { get; set; }</Member>
+        <Member type="Property">public Vehicle Car { get; set; }</Member>
+        <Member type="Property">public Interchange Interchanges { get; set; }</Member>
+        <Member type="Constructor">public Part()</Member>
+        <Member type="Constructor">public Part(String country, String man, String unit, String node, String detail, String picname, Boolean change, Vehicle veh, Interchange inter)</Member>
+        <Member type="Method">public override Boolean Equals(Object obj)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>FormMethods</Name>
+        <Access>Public</Access>
+        <Location left="76" top="319" />
+        <Size width="162" height="121" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public static List&lt;string&gt; FormModelsList(List&lt;Vehicle&gt; list, string brand)</Member>
+        <Member type="Method">public static List&lt;string&gt; FormPicNameList(List&lt;Part&gt; list)</Member>
+        <Modifier>Static</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>FindMethods</Name>
+        <Access>Public</Access>
+        <Location left="76" top="10" />
+        <Size width="162" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public static List&lt;Part&gt; FindDetails(List&lt;Part&gt; list, string name)</Member>
+        <Member type="Method">public static List&lt;Part&gt; FindDetails(List&lt;Part&gt; list, List&lt;Vehicle&gt; choosed)</Member>
+        <Member type="Method">public static List&lt;Vehicle&gt; FindCars(List&lt;Vehicle&gt; list, string model)</Member>
+        <Member type="Method">public static List&lt;Vehicle&gt; FindModels(List&lt;Vehicle&gt; list, string brand)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>XmlMethods</Name>
+        <Access>Public</Access>
+        <Location left="76" top="164" />
+        <Size width="162" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public static void Deserialize(out List&lt;Part&gt; list)</Member>
+        <Member type="Method">public static void Deserialize(out List&lt;Vehicle&gt; list)</Member>
+        <Member type="Method">public static void Serialize(List&lt;Part&gt; list)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="0" second="5">
+        <Label>Collection</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>468</X>
+          <Y>382</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="0" second="4">
+        <Label>AllVehicles</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>463</X>
+          <Y>748</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="0" second="5">
+        <Label>ChoosedParts</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="0" second="4">
+        <Label>ChoosedCars</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="1" second="5">
+        <Label>P</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>741</X>
+          <Y>430</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="5" second="3">
+        <Label>Interchange</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>631</X>
+          <Y>265</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="5" second="4">
+        <Label>Car</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Catalog.Catalog">
+    <Position X="3.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgCAAEIQYCAIQIAkKAiQAEACAaAdyASCAAAACAEBAEA=</HashCode>
+      <FileName>Catalog.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Collection" />
+      <Field Name="ChoosedParts" />
+      <Field Name="AllVehicles" />
+      <Field Name="ChoosedCars" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Catalog.Info">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>REAJAAAAASAYAAAEAAWIAIQCABAEIAAGAGECIARIAAA=</HashCode>
+      <FileName>Info.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="P" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Catalog.Manual">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAQAAAAACAAAACAAAAAAAAAAACAAgEBAA=</HashCode>
+      <FileName>Manual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DetailClasses.Part">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Car" />
+      <Property Name="Interchanges" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DetailClasses.Vehicle">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Methods.FormMethods">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Methods.FindMethods">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Methods.XmlMethods">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DetailClasses.Interchange">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <AssociationLine Name="To" Type="DetailClasses.Vehicle" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.25" Y="4.5" />
+        <Point X="5.312" Y="4.5" />
+        <Point X="5.312" Y="0.125" />
+        <Point X="2.062" Y="0.125" />
+        <Point X="2.062" Y="3.079" />
+        <Point X="1.656" Y="3.079" />
+        <Point X="1.656" Y="3.017" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="From" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="To" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
